@@ -34,14 +34,26 @@
     <h3>Ota yhteyttä</h3>
 
     <form>
-        <input type="text" placeholder="Nimi" required>
 
-        <input type="email" placeholder="Sähköposti" required>
+        <label for="nimi">Nimi</label>
+        <input type="text" id="nimi" name="nimi" required>
 
-        <textarea rows="6" placeholder="Kirjoita viestisi tähän..." required></textarea>
+        <br><br>
+
+        <label for="sahkoposti">Sähköposti</label>
+        <input type="email" id="sahkoposti" name="sahkoposti" required>
+
+        <br><br>
+
+        <label for="viesti">Viesti</label>
+        <textarea id="viesti" name="viesti" rows="6" required></textarea>
+
+        <br><br>
 
         <button type="submit">Lähetä viesti</button>
+
     </form>
+
 </section>
 
 <footer>
